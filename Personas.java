@@ -46,6 +46,11 @@ public class Personas {
 		this.estadocivil = estadocivil;
 	}
 
+	public void imprimir() {
+		System.out.println( " [nombre=" + nombre + ", apellido=" + apellido + ", rut=" + rut + ", estadocivil=" + estadocivil
+				+ "]");
+	}
+	
 	@Override
 	public String toString() {
 		return "Personas [nombre=" + nombre + ", apellido=" + apellido + ", estadocivil=" + estadocivil + "]";
