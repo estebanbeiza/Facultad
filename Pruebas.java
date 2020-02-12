@@ -1,4 +1,4 @@
-package EjercicoD;
+package EjercicioD;
 import java.time.LocalDate;
 
 public class Pruebas {
