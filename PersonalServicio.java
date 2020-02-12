@@ -1,24 +1,24 @@
-package PEjercio4;
+package EjercicioD;
 
 public class PersonalServicio extends Persona{
 
-	private int añoCorporacion;
+	private int anoCorporacion;
 	private int numeroDespacho;
 	private String seccion;
 	
-	PersonalServicio (int añoCorporacion, int numeroDespacho,String seccion){
-		this.añoCorporacion = añoCorporacion;
+	PersonalServicio (int anoCorporacion, int numeroDespacho,String seccion){
+		this.anoCorporacion = anoCorporacion;
 		this.numeroDespacho = numeroDespacho;
 		this.seccion = seccion;
 			
 	}
 
-	public int getAñoCorporacion() {
-		return añoCorporacion;
+	public int getAnoCorporacion() {
+		return anoCorporacion;
 	}
 
-	public void setAñoCorporacion(int añoCorporacion) {
-		this.añoCorporacion = añoCorporacion;
+	public void setAnoCorporacion(int anoCorporacion) {
+		this.aÃ±oCorporacion = anoCorporacion;
 	}
 
 	public int getNumeroDespacho() {
@@ -46,7 +46,7 @@ public class PersonalServicio extends Persona{
 	}
 	
 	public void imprimir() {
-		System.out.println("Año"+ añoCorporacion);
+		System.out.println("AÃ±o"+ anoCorporacion);
 		System.out.println("Nunero"+ numeroDespacho);
 		System.out.println("Seccion"+ seccion);
 	}
