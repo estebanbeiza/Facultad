@@ -1,4 +1,4 @@
-package Cclase16D;
+package EjercicioD;
 
 public class Personas {
 
