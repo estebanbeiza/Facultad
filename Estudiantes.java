@@ -1,4 +1,4 @@
-package Ej10;
+package EjercicioD;
 
 public class Estudiantes extends Personas{
 	
