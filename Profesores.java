@@ -1,4 +1,4 @@
-package PFacultad;
+package EjercicioD;
 
 import java.time.LocalDate;
 
